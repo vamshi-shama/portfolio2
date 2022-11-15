@@ -1,17 +1,13 @@
 
 import './App.css';
+import Header from './Components/Header/index'
 
 function App() {
   return (
     <div className="App">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Header />
+        <div className='LeftSection'></div>
+        <div className='RightSection'></div>
     </div>
   );
 }
