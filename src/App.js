@@ -1,13 +1,19 @@
 
 import './App.css';
 import Header from './Components/Header/index'
+import LeftSection from './Components/LeftSection';
+import RightSection from './Components/RightSection/index';
 
 function App() {
   return (
     <div className="App">
         <Header />
-        <div className='LeftSection'></div>
-        <div className='RightSection'></div>
+        <hr/>
+        <div className='main-section'>
+          <LeftSection />
+          <RightSection />
+        </div>
+        
     </div>
   );
 }
