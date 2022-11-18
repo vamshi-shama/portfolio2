@@ -1,11 +1,17 @@
 import './index.css'
+import Project from './Project/index'
 
-function RightSection(){
-    return(
-        <div className="LeftSection">
-          <h1>dsafasgsgg</h1>
+const RightSection = () => {
+    return (
+        <div className='RightSection'>
+            <div className='Project'>
+                <Project />
+            </div>
+            <div className='Languages'>
+
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default RightSection;

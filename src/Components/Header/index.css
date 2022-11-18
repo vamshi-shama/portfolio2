@@ -1,4 +1,8 @@
-.Header{
-    font-weight: lighter;
-    background-color:aqua;
+.candidate-name{
+    font-size: 3.5em;
+    margin: 0;
+}
+
+.candidate-email, .candidate-phone{
+    margin: 0 0 5px;
 }

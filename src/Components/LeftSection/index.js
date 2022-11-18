@@ -1,11 +1,17 @@
 import './index.css'
+import Education from './Education/index'
 
-function LeftSection(){
+const LeftSection = () => {
     return(
-        <div className="LeftSection">
-          
+        <div className='LeftSection'>
+            <div className='Education'>
+                <Education />
+            </div>
+            <div className='Skill'>
+
+            </div>
         </div>
-    )
-}
+    );
+};
 
 export default LeftSection;
