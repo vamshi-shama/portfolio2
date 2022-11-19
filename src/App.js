@@ -1,7 +1,7 @@
 
 import './App.css';
 import Header from './Components/Header/index'
-import LeftSection from './Components/LeftSection';
+import LeftSection from './Components/LeftSection/index';
 import RightSection from './Components/RightSection/index';
 
 function App() {
